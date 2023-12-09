@@ -1,0 +1,64 @@
+/* styles.css */
+
+body {
+    background-image: url(business\ background.jpg);
+    background-size: 100vw 100vh;
+}
+
+header {
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.service {
+    width: calc(50% - 20px);
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.contact-form {
+    margin-top: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+
+.contact-form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+} 
+section{
+    max-width: 800px;
+    margin-top: 80px;
+    padding: 20px;
+    background-color: rgb(4, 4, 4);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: aliceblue;
+}
